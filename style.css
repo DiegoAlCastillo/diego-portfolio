@@ -594,9 +594,27 @@ section{
  }
 
     .contenedor-logros{
-    grid-template-columns: 1fr;
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
     }
 
+    .logro{
+    width: 100%;
+
+    padding: 22px 18px;
+ }
+    .logro h3{
+    font-size: 34px;
+ }
+
+    .logro p{
+    font-size: 16px;
+
+    line-height: 1.6;
+ }
     .contenedor{
     width: 92%;
 
