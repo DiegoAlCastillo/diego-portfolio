@@ -594,15 +594,22 @@ section{
  }
 
     .contenedor-logros{
-    display: flex;
+    display: flex !important;
 
-    flex-direction: column;
+    flex-direction: column !important;
+
+    align-items: stretch;
 
     gap: 18px;
-    }
 
-    .logro{
     width: 100%;
+ }
+    .logro{
+    display: block;
+
+    width: 100%;
+
+    min-height: auto;
 
     padding: 22px 18px;
  }
