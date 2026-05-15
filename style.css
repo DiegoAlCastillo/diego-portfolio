@@ -591,7 +591,7 @@ section{
     }
 
     h1{
-        font-size: 28px;
+        font-size: 28px !important;
         line-height: 1.2;
     }
 
@@ -608,18 +608,26 @@ section{
     }
 
     .foto-perfil{
-        width: 180px;
+        width: 170px !important;
     }
 
     .logo-up{
-        width: 75px;
+        width: 70px !important;
     }
 
     .logo-cientifica{
-        width: 75px;
+        width: 70px !important;
     }
     .logos-universidades{
-        gap: 15px;
+     display: flex;
+
+     align-items: center;
+
+     justify-content: center;
+
+     gap: 12px;
+
+     margin-bottom: 25px;
     }
 
     .boton{
