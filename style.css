@@ -575,7 +575,7 @@ section{
     }
 
     nav{
-        gap: 8px;
+        gap: 15px;
 
         padding: 10px 12px;
     }
@@ -587,11 +587,11 @@ section{
     .hero{
         width: 82%;
 
-        padding: 35px 20px;
+        padding: 30px 18px;
     }
 
     h1{
-        font-size: 32px;
+        font-size: 28px;
         line-height: 1.2;
     }
 
@@ -612,14 +612,14 @@ section{
     }
 
     .logo-up{
-        width: 95px;
+        width: 75px;
     }
 
     .logo-cientifica{
-        width: 110px;
+        width: 75px;
     }
     .logos-universidades{
-        gap: 8px;
+        gap: 15px;
     }
 
     .boton{
