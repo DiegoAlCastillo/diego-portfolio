@@ -567,6 +567,20 @@ section{
     }
 }
 
+/* RESULTADOS */
+
+.contenedor-logros{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    max-width: 1000px;
+
+    margin: 40px auto 0 auto;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 768px){
@@ -681,6 +695,8 @@ section{
 
         box-sizing: border-box;
 
+        padding: 15px;
+
     }
 
     .texto-experiencia{
@@ -688,15 +704,23 @@ section{
     }
 
     .texto-experiencia h3{
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .texto-experiencia p{
-        font-size: 18px;
+        font-size: 16px;
+
+        line-height: 1.7;
     }
 
     .imagen-proyecto{
+        width: 100%;
+
         max-width: 100%;
+
+        border-radius: 15px;
+
+        display: block;
     }
 
     section{
